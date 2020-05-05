@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Контакты</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="./libs/owl-carousel/assets/owl.carousel.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" type="image/x-icon" href="./img/logo.png">
+</head>
+<body>
+	<section class="contactinform-sections">
+		<div class="contactinform-sections__title">
+			<h2>КОНТАКТЫ</h2>
+		</div>
+	</section>
+	<section class="contactinform-sections">
+		<div class="conteiner">
+			<div class="contact__wrapper">
+				<form action="mail.php" name="newform" method="POST">
+					<div class="form__inputs">
+						<input class="contact__inputs" name="user_name"	type="text" placeholder="Имя">
+						
+						<input class="contact__inputs" name="user-email" type="text" placeholder="Email">
+						
+					</div>
+					<textarea name="text" name="user-message" placeholder="Сообщение"></textarea>
+					<div class="button__block">
+						<input class="contact__inputs" name="otprav" type="submit" value="Отправить">
+					</div>
+				</form>
+			</div>
+			<!--<div class="contactinform-sections__roww">
+				<div class="contactinform-sections__coll">
+					Карта
+				</div>
+			</div>-->
+		</div>
+	</section>
+</body>
+</html>
