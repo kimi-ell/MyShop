@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="./libs/owl-carousel/assets/owl.carousel.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" type="image/x-icon" href="./img/logo.png">
+	<title>Интернет-магазин</title>
+</head>
+<body>
+	<!-- Шапка сайта -->
+<header class="header">
+	<div class="header__container">
+		<!--Логотип-->
+		<div class="header__logo">
+			MyShop
+		</div>
+		<!--Поиск-->
+		<form class="header__search">
+			<div class="header__search-input-wrapper">
+				<input class="header__search-input" type="text" placeholder="Поиск">
+			</div>
+			<div class="header__search-button-wrapper">
+				<button class="header__search-button" type="sumbit">
+				<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path d="M23.809 21.646l-6.205-6.205c1.167-1.605 1.857-3.579 1.857-5.711 0-5.365-4.365-9.73-9.731-9.73-5.365 0-9.73 4.365-9.73 9.73 0 5.366 4.365 9.73 9.73 9.73 2.034 0 3.923-.627 5.487-1.698l6.238 6.238 2.354-2.354zm-20.955-11.916c0-3.792 3.085-6.877 6.877-6.877s6.877 3.085 6.877 6.877-3.085 6.877-6.877 6.877c-3.793 0-6.877-3.085-6.877-6.877z"/></svg>
+				</button>
+			</div>
+		</form>
+		<div class="header__links">
+			<!--Корзина-->
+			<a href="#" class="header-link">
+				<span class="header-link__text">
+					Корзина
+				</span>
+			</a>
+			<!--Избранное-->
+			<a href="#" class="header-link">
+				<span class="header-link__text">
+					Избранное
+				</span>
+			</a>
+			<!--Контакты-->
+			<a href="./contactinfo.html" class="header-link">
+				<span class="header-link__text">
+					Контакты
+				</span>
+			</a>
+		</div>
+	</div>
+</header>
+	<!--Баннер-->
+<section class="carousel-section">
+	<div class="conteiner">
+		<!--Карусель-->
+		<div class="carousel owl-carousel" id="carousel-header">
+			<!--Первый слайд-->
+			<div class="carousel__item-one">
+				<h2 class="carousel__item-title">Samsung Galaxy 20</h2>
+				<div class="carousel__item-text">
+					<p>В нашем магазине появился новый смартфон от Samsung: Samsung Galaxy 20</p>
+				</div>
+			</div>
+			<!--//Первый слайд-->
+			<!--Второй слайд-->
+			<div class="carousel__item-two">
+				<h2 class="carousel__item-title">Huawei P40</h2>
+				<div class="carousel__item-text">
+					<p>В нашем магазине появился новый смартфон от Huawei: Huawei P40</p>
+				</div>
+			</div>
+			<!--//Второй слайд-->
+			<!--Третий слайд-->
+			<div class="carousel__item-three">
+				<h2 class="carousel__item-title">Google Pixel 4</h2>
+				<div class="carousel__item-text">
+					<p>В нашем магазине появился новый смартфон от Google: Google Pixel 4</p>
+				</div>
+			</div>
+			<!--//Третий слайд-->
+		</div>
+	</div>
+</section>
+	<!--Категории-->
+<section class="categories-sections">
+	<div class="conteiner">
+		<div class="categories-sections__title">
+			<h2>КАТЕГОРИИ</h2>
+		</div>
+		<div class="categories-sections__row">
+			<div class="categories-sections__col">
+				<img src="./img/images/categ-smart.jpg" alt="Смартфоны">
+  				<button class="btn"><a href="#" class="categories-sections__link">Смартфоны</a></button>
+			</div>
+			<div class="categories-sections__col">
+				<img src="./img/images/categ-tablets.jpg" alt="Планшеты">
+  				<button class="btn"><a href="#" class="categories-sections__link">Планшеты</a></button>
+			</div>
+			<div class="categories-sections__col">
+				<img src="./img/images/categ-laptops.jpg" alt="Ноутбуки">
+  				<button class="btn"><a href="#" class="categories-sections__link">Ноутбуки</a></button>
+			</div>
+		</div>
+		<div class="categories-sections__roww">
+			<div class="categories-sections__col">
+				<img src="./img/images/categ-smart_watch.png" alt="СМАРТ_ЧАСЫ">
+  				<button class="btn"><a href="#" class="categories-sections__link">СМАРТ-ЧАСЫ</a></button>
+			</div>
+			<div class="categories-sections__col">
+				<img src="./img/images/categ-headphones.jpg" alt="Наушники">
+  				<button class="btn"><a href="#" class="categories-sections__link">наушники</a></button>
+			</div>
+			<div class="categories-sections__col">
+				<img src="./img/images/categ-accessories.jpg" alt="Аксессуары">
+  				<button class="btn"><a href="#" class="categories-sections__link">Аксессуары</a></button>
+			</div>
+		</div>
+	</div>
+</section>
+	<!--Популярные товары-->
+	<section class="popular-sections">
+		<div class="conteiner">
+			<div class="popular-sections__title">
+				<h2>ПОПУЛЯРНЫЕ ТОВАРЫ</h2>
+			</div>
+			<div class="popular-sections__row">
+				<div class="popular-sections__col">
+					<a href="#" class="popular-sections__link">
+					<img class="popular-sections__pict" src="./img/images/tovar-02.jpg" alt="" style="">
+					<h3 class="popular-sections__h">Смартфон Apple iPhone 11 Pro Max 512GB (серый космос)</h3>
+						<p class="popular-sections__price">Цена: 131 990 руб.</p>
+					<button class="popular-sections__button"><a class="popular-sections__link" href="#" style="color: white">В корзину</a></button></a>
+				</div>
+
+				<div class="popular-sections__col">
+					<a href="#" class="popular-sections__link">
+					<img class="popular-sections__pict" src="./img/images/tovar-04.jpg" alt="" style="">
+					<h3 class="popular-sections__h">Смартфон Samsung Galaxy S20+ 128GB (красный)</h3>
+						<p class="popular-sections__price">Цена: 79 990 руб.</p>
+					<button class="popular-sections__button"><a class="popular-sections__link" href="#" style="color: white">В корзину</a></button></a>
+				</div>
+
+				<div class="popular-sections__col">
+					<a href="#" class="popular-sections__link">
+					<img class="popular-sections__pict" src="./img/images/tovar-03.jpg" alt="" >
+					<h3 class="popular-sections__h">Смартфон Google Pixel 4 XL 128GB (Черный)</h3>
+						<p class="popular-sections__price">Цена: 69 400 руб.</p>
+					<button class="popular-sections__button"><a class="popular-sections__link" href="#" style="color: white">В корзину</a></button></a>
+				</div>
+
+				<div class="popular-sections__col">
+					<a href="#" class="popular-sections__link">
+					<img class="popular-sections__pict" src="./img/images/tovar-05.jpg" alt="" style="">
+					<h3 class="popular-sections__h">Смартфон Apple iPhone XS 256GB (золотой)</h3>
+						<p class="popular-sections__price">Цена: 67 990 руб.</p>
+					<button class="popular-sections__button"><a class="popular-sections__link" href="#" style="color: white">В корзину</a></button></a>
+				</div>
+
+			</div>
+			<div class="popular-sections__row">
+				<div class="popular-sections__col">
+					<a href="#" class="popular-sections__link">
+					<img class="popular-sections__pict" src="./img/images/tovar-02.jpg" alt="" style="">
+					<h3 class="popular-sections__h">Смартфон Apple iPhone 11 Pro Max 512GB (серый космос)</h3>
+						<p class="popular-sections__price">Цена: 131 990 руб.</p>
+					<button class="popular-sections__button"><a class="popular-sections__link" href="#" style="color: white">В корзину</a></button></a>
+				</div>
+
+				<div class="popular-sections__col">
+					<a href="#" class="popular-sections__link">
+					<img class="popular-sections__pict" src="./img/images/tovar-04.jpg" alt="" style="">
+					<h3 class="popular-sections__h">Смартфон Samsung Galaxy S20+ 128GB (красный)</h3>
+						<p class="popular-sections__price">Цена: 79 990 руб.</p>
+					<button class="popular-sections__button"><a class="popular-sections__link" href="#" style="color: white">В корзину</a></button></a>
+				</div>
+
+				<div class="popular-sections__col">
+					<a href="#" class="popular-sections__link">
+					<img class="popular-sections__pict" src="./img/images/tovar-03.jpg" alt="" >
+					<h3 class="popular-sections__h">Смартфон Google Pixel 4 XL 128GB (Черный)</h3>
+						<p class="popular-sections__price">Цена: 69 400 руб.</p>
+					<button class="popular-sections__button"><a class="popular-sections__link" href="#" style="color: white">В корзину</a></button></a>
+				</div>
+
+				<div class="popular-sections__col">
+					<a href="#" class="popular-sections__link">
+					<img class="popular-sections__pict" src="./img/images/tovar-05.jpg" alt="" style="">
+					<h3 class="popular-sections__h">Смартфон Apple iPhone XS 256GB (золотой)</h3>
+						<p class="popular-sections__price">Цена: 67 990 руб.</p>
+					<button class="popular-sections__button"><a class="popular-sections__link" href="#" style="color: white">В корзину</a></button></a>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<!--О Нас-->
+	<section class="info-sections">
+		<div class="conteiner">
+			<div class="info-sections__title">
+				<h2>О НАС</h2>
+			</div>
+			<div class="info-sections__row">
+				<div class="info-sections__col__text">
+					Наша компания специализируется на розничной и Интернет-торговле аксессуарами, смартфонами, планшетами, и другой продукцией разных брендов.
+                  <br>
+                  <br>В нашем ассортименте представлено более 15000 товаров. Своими главными преимуществами мы считаем ассортимент магазина (мы не продаем того, что не купили бы сами) и профессионализм нашей команды.
+                  <br>
+                  <br>Кстати, в нашем Интернет-магазине можно приобрести нужный и полезный аксессуар или гаджет (себе или в подарок), воспользовавшись расширенными фильтрами для поиска
+				</div>
+				<div class="info-sections__col">
+					<img src="./img/images/info.jpg" style="width: 540px; height: 300px; border-radius: 11px;"> 
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!--<section class="map">
+		<div class="container">
+			<div class="form-info-sections">
+				<h2 class="contact">Напишите мне</h2>
+				<form id="contactform"> 
+					<p class="contact"><label for="name">Имя</label></p> 
+					<input id="name" name="name" placeholder="Ваше имя" required="" tabindex="1" type="text"> 
+			 
+					<p class="contact"><label for="email">Email</label></p> 
+					<input id="email" name="email" placeholder="example@sitehere.ru" required="" tabindex="2" type="text"> 
+			 
+					<p class="contact"><label for="Subject">Тема</label></p> 
+					<input id="subject" name="subject" placeholder="Тема сообщения" required="" tabindex="2" type="text"> 
+			 
+					<p class="contact"><label for="comment">Сообщение</label></p> 
+					<textarea name="comment" id="comment" tabindex="4"></textarea> <br>
+					<input name="submit" id="submit" tabindex="5" value="Отправить" type="submit"> 	 
+				</form> 
+			</div>
+		</div>
+	</section>-->
+<!--JQuery-->
+<script type="text/javascript" src="./libs/jquery/jquery-3.5.0.min.js"></script>
+<!--OwlCarousel-->
+<script type="text/javascript" src="./libs/owl-carousel/owl.carousel.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
