@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>MyShop</title>
+</head>
+<body class="page light-theme">
+	<!-- Шапка сайта -->
+<header class="header">
+	<div class="header__container">
+		<!--Логотип-->
+		<div class="header__logo">
+			MyShop
+		</div>
+		<!--Поиск-->
+		<form class="header__search">
+			<div class="header__search-input-wrapper">
+				<input class="header__search-input" type="text" placeholder="Поиск">
+				<span class="focus-bg"></span>
+			</div>
+			<div class="header__search-button-wrapper">
+				<button class="header__search-button" type="sumbit">
+					<img src="./img/icons/search-dark.svg" height="20px" width="20px">
+				<!--<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path d="M23.809 21.646l-6.205-6.205c1.167-1.605 1.857-3.579 1.857-5.711 0-5.365-4.365-9.73-9.731-9.73-5.365 0-9.73 4.365-9.73 9.73 0 5.366 4.365 9.73 9.73 9.73 2.034 0 3.923-.627 5.487-1.698l6.238 6.238 2.354-2.354zm-20.955-11.916c0-3.792 3.085-6.877 6.877-6.877s6.877 3.085 6.877 6.877-3.085 6.877-6.877 6.877c-3.793 0-6.877-3.085-6.877-6.877z"/></svg>
+				--></button>
+			</div>
+		</form>
+		<div class="header__links">
+			<!--Корзина-->
+			<a href="#" class="header-link">
+				<span class="header-link__text">
+					Корзина
+				</span>
+			</a>
+			<!--Контакты-->
+			<a href="#contact" class="header-link">
+				<span class="header-link__text">
+					Контакты
+				</span>
+			</a>
+
+			<div class="wrapper">
+				<div class="switch_box box_3">
+					<div class="toggle_switch">
+						<input type="checkbox" class="switch_3">
+						<svg class="checkbox" xmlns="http://www.w3.org/2000/svg" style="isolation:isolate" viewBox="0 0 168 80">
+						   <path class="outer-ring" d="M41.534 9h88.932c17.51 0 31.724 13.658 31.724 30.482 0 16.823-14.215 30.48-31.724 30.48H41.534c-17.51 0-31.724-13.657-31.724-30.48C9.81 22.658 24.025 9 41.534 9z" fill="none" stroke="#233043" stroke-width="3" stroke-linecap="square" stroke-miterlimit="3"/>
+						   <path class="is_unchecked" d="M17 39.482c0-12.694 10.306-23 23-23s23 10.306 23 23-10.306 23-23 23-23-10.306-23-23z"/>
+							<path class="is_checked" d="M132.77 22.348c7.705 10.695 5.286 25.617-5.417 33.327-2.567 1.85-5.38 3.116-8.288 3.812 7.977 5.03 18.54 5.024 26.668-.83 10.695-7.706 13.122-22.634 5.418-33.33-5.855-8.127-15.88-11.474-25.04-9.23 2.538 1.582 4.806 3.676 6.66 6.25z"/>
+						</svg>
+					  </div>
+				</div>
+				
+			</div>
+			<!--<button class="theme-button" type="button">Изменить тему</button>-->
+		</div>
+	</div>
+</header>
+<section class="section categories__page"> 
+    <div class="conteiner">
+        <header class="categories__header">
+            <h2 class="categories-sections__title">КАТЕГОРИИ</h2>
+            <nav class="catalog__nav">
+                <ul class="catalog-nav__wrapper">
+                    <li class="catalog-nav__iteam">
+                        <button class="catalog-nav__button is-active" type="button">Все</button>
+                    </li>
+                    <li class="catalog-nav__iteam">
+                        <button class="catalog-nav__button" type="button">Смартфоны</button>
+                    </li>
+                    <li class="catalog-nav__iteam">
+                        <button class="catalog-nav__button" type="button">Планшеты</button>
+                    </li>
+                    <li class="catalog-nav__iteam">
+                        <button class="catalog-nav__button" type="button">Ноутбуки</button>
+                    </li>
+                    <li class="catalog-nav__iteam">
+                        <button class="catalog-nav__button" type="button">Смарт-часы</button>
+                    </li>
+                    <li class="catalog-nav__iteam">
+                        <button class="catalog-nav__button" type="button">Наушники</button>
+                    </li>
+                    <li class="catalog-nav__iteam">
+                        <button class="catalog-nav__button" type="button">Аксессуары</button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="popular-sections__row">
+			<div class="popular-sections__col">
+				<a href="#" class="popular-sections__link">
+				<img class="popular-sections__pict" src="./img/images/tovar-02.png" alt="" style="">
+				<h3 class="popular-sections__h">Смартфон Apple iPhone 11 Pro Max 512GB (серый космос)</h3>
+					<p class="popular-sections__price">131 990 руб.</p>
+				<button class="popular-sections__button"><a class="popular-sections__link" href="#">В корзину</a></button></a>
+			</div>
+
+			<div class="popular-sections__col">
+				<a href="#" class="popular-sections__link">
+				<img class="popular-sections__pict" src="./img/images/tovar-04.png" alt="" style="">
+				<h3 class="popular-sections__h">Смартфон Samsung Galaxy S20+ 128GB (красный)</h3>
+					<p class="popular-sections__price">79 990 руб.</p>
+				<button class="popular-sections__button"><a class="popular-sections__link" href="#">В корзину</a></button></a>
+			</div>
+
+			<div class="popular-sections__col">
+				<a href="#" class="popular-sections__link">
+				<img class="popular-sections__pict" src="./img/images/tovar-03.png" alt="" >
+				<h3 class="popular-sections__h">Смартфон Google Pixel 4 XL 128GB (Черный)</h3>
+					<p class="popular-sections__price">69 400 руб.</p>
+				<button class="popular-sections__button"><a class="popular-sections__link" href="#">В корзину</a></button></a>
+			</div>
+
+			<div class="popular-sections__col">
+				<a href="#" class="popular-sections__link">
+				<img class="popular-sections__pict" src="./img/images/tovar-05.png" alt="" style="">
+				<h3 class="popular-sections__h">Смартфон Apple iPhone XS 256GB (золотой)</h3>
+					<p class="popular-sections__price">67 990 руб.</p>
+				<button class="popular-sections__button"><a class="popular-sections__link" href="#">В корзину</a></button></a>
+			</div>
+
+		</div>
+		<div class="popular-sections__row">
+			<div class="popular-sections__col">
+				<a href="#" class="popular-sections__link">
+				<img class="popular-sections__pict" src="./img/images/tovar-02.png" alt="" style="">
+				<h3 class="popular-sections__h">Смартфон Apple iPhone 11 Pro Max 512GB (серый космос)</h3>
+					<p class="popular-sections__price">131 990 руб.</p>
+				<button class="popular-sections__button"><a class="popular-sections__link" href="#">В корзину</a></button></a>
+			</div>
+
+			<div class="popular-sections__col">
+				<a href="#" class="popular-sections__link">
+				<img class="popular-sections__pict" src="./img/images/tovar-04.png" alt="" style="">
+				<h3 class="popular-sections__h">Смартфон Samsung Galaxy S20+ 128GB (красный)</h3>
+					<p class="popular-sections__price">79 990 руб.</p>
+				<button class="popular-sections__button"><a class="popular-sections__link" href="#">В корзину</a></button></a>
+			</div>
+
+			<div class="popular-sections__col">
+				<a href="#" class="popular-sections__link">
+				<img class="popular-sections__pict" src="./img/images/tovar-03.png" alt="" >
+				<h3 class="popular-sections__h">Смартфон Google Pixel 4 XL 128GB (Черный)</h3>
+					<p class="popular-sections__price">69 400 руб.</p>
+				<button class="popular-sections__button"><a class="popular-sections__link" href="#">В корзину</a></button></a>
+			</div>
+
+			<div class="popular-sections__col">
+				<a href="#" class="popular-sections__link">
+				<img class="popular-sections__pict" src="./img/images/tovar-05.png" alt="" style="">
+				<h3 class="popular-sections__h">Смартфон Apple iPhone XS 256GB (золотой)</h3>
+					<p class="popular-sections__price">67 990 руб.</p>
+				<button class="popular-sections__button"><a class="popular-sections__link" href="#" >В корзину</a></button></a>
+			</div>
+
+		</div>
+					</footer>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
